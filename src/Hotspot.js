@@ -205,6 +205,8 @@ Hotspot.prototype._update = function() {
     }
   }
 
+  isVisible = true;
+  
   // Show if visible, hide if not.
   if (isVisible) {
     element.style.display = 'block';
